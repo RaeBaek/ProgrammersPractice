@@ -13,6 +13,8 @@
 		14AE4AE829371875007BC9A2 /* CollectParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */; };
 		14AE4AEA2937725A007BC9A2 /* BinaryConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */; };
 		14AE4AEC293784F8007BC9A2 /* FibonacciNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AEB293784F8007BC9A2 /* FibonacciNumber.swift */; };
+		14AE4AEE29379F67007BC9A2 /* NextMaxNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AED29379F67007BC9A2 /* NextMaxNumber.swift */; };
+		14AE4AF02937A6EF007BC9A2 /* MaxMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AEF2937A6EF007BC9A2 /* MaxMin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectParenthesis.swift; sourceTree = "<group>"; };
 		14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConversion.swift; sourceTree = "<group>"; };
 		14AE4AEB293784F8007BC9A2 /* FibonacciNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciNumber.swift; sourceTree = "<group>"; };
+		14AE4AED29379F67007BC9A2 /* NextMaxNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMaxNumber.swift; sourceTree = "<group>"; };
+		14AE4AEF2937A6EF007BC9A2 /* MaxMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxMin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				14167D982934A9FC00236E47 /* main.swift */,
+				14AE4AEF2937A6EF007BC9A2 /* MaxMin.swift */,
 				14167D9F2934B78500236E47 /* JadenCaseString.swift */,
 				14AE4AE529370712007BC9A2 /* SumMinimum.swift */,
 				14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */,
 				14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */,
 				14AE4AEB293784F8007BC9A2 /* FibonacciNumber.swift */,
+				14AE4AED29379F67007BC9A2 /* NextMaxNumber.swift */,
 			);
 			path = ProgrammersPractice;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14167D992934A9FC00236E47 /* main.swift in Sources */,
+				14AE4AF02937A6EF007BC9A2 /* MaxMin.swift in Sources */,
 				14AE4AE629370712007BC9A2 /* SumMinimum.swift in Sources */,
+				14AE4AEE29379F67007BC9A2 /* NextMaxNumber.swift in Sources */,
 				14167DA02934B78500236E47 /* JadenCaseString.swift in Sources */,
 				14AE4AEA2937725A007BC9A2 /* BinaryConversion.swift in Sources */,
 				14AE4AE829371875007BC9A2 /* CollectParenthesis.swift in Sources */,

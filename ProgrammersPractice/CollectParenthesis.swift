@@ -7,21 +7,9 @@
 
 import Foundation
 
-func solution5_1(_ s: String) -> Bool {
+func collectParenthesis(_ s: String) -> Bool {
+    var ans: Bool = false
     var count = 0
-//    for _ in s {
-//        s0 = s0.components(separatedBy: "()").joined()
-//
-//        if s0 == "" {
-//            ans = true
-//            break
-//        } else {
-//            ans = false
-//            if !s0.contains("()") {
-//                break
-//            }
-//        }
-//    }
     for a in s {
         if a == "(" {
             count += 1
@@ -32,5 +20,6 @@ func solution5_1(_ s: String) -> Bool {
             break
         }
     }
-    return count == 0 ? true : false
+    ans = count == 0 ? true : false
+    return ans
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-func solution(_ s: String) -> [Int] {
+func binaryConversion(_ s: String) -> [Int] {
     var s = s
     var deleteZero: Int = 0, times: Int = 0
    
@@ -18,5 +18,5 @@ func solution(_ s: String) -> [Int] {
         s = String(s.count - replaceCount, radix: 2)
         times += 1
     }
-    return [deleteZero, times]
+    return [times, deleteZero]
 }
