@@ -97,14 +97,21 @@ func solution5(_ s: String) -> Bool {
     return ans
 }
 
+func solution6(_ s: String) -> [Int] {
+    var s = s
+    var deleteZero: Int = 0, times: Int = 0
+   
+    while s != "1" {
+        let replaceCount = s.filter { $0 == "0" }.count
+        deleteZero += replaceCount
+        
+        s = String(s.count - replaceCount, radix: 2)
+        times += 1
+    }
+    print(deleteZero, times)
+    return [times, deleteZero]
+}
+
 print("문장을 입력해주세요.")
-var s = "()((()()()"
-solution5(s)
-
-
-//while true {
-//    print("비교할 숫자를 입력해주세요.")
-//    numbers = readLine() ?? ""
-//    solution(numbers)
-//    print(result)
-//}
+var s = "110101010100101"
+solution6(s)

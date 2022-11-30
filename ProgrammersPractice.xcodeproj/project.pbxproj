@@ -11,6 +11,7 @@
 		14167DA02934B78500236E47 /* JadenCaseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14167D9F2934B78500236E47 /* JadenCaseString.swift */; };
 		14AE4AE629370712007BC9A2 /* SumMinimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AE529370712007BC9A2 /* SumMinimum.swift */; };
 		14AE4AE829371875007BC9A2 /* CollectParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */; };
+		14AE4AEA2937725A007BC9A2 /* BinaryConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		14167D9F2934B78500236E47 /* JadenCaseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JadenCaseString.swift; sourceTree = "<group>"; };
 		14AE4AE529370712007BC9A2 /* SumMinimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumMinimum.swift; sourceTree = "<group>"; };
 		14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectParenthesis.swift; sourceTree = "<group>"; };
+		14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				14167D9F2934B78500236E47 /* JadenCaseString.swift */,
 				14AE4AE529370712007BC9A2 /* SumMinimum.swift */,
 				14AE4AE729371875007BC9A2 /* CollectParenthesis.swift */,
+				14AE4AE92937725A007BC9A2 /* BinaryConversion.swift */,
 			);
 			path = ProgrammersPractice;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				14167D992934A9FC00236E47 /* main.swift in Sources */,
 				14AE4AE629370712007BC9A2 /* SumMinimum.swift in Sources */,
 				14167DA02934B78500236E47 /* JadenCaseString.swift in Sources */,
+				14AE4AEA2937725A007BC9A2 /* BinaryConversion.swift in Sources */,
 				14AE4AE829371875007BC9A2 /* CollectParenthesis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
