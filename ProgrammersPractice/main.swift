@@ -112,6 +112,16 @@ func solution6(_ s: String) -> [Int] {
     return [times, deleteZero]
 }
 
+func solution7(_ n: Int) -> Int {
+    var fibonacci: [Int] = [0, 1]
+    
+    for i in 0..<n-1 {
+        fibonacci.append((fibonacci[i] + fibonacci[i+1]) % 1234567)
+    }
+    print(fibonacci[n])
+    return fibonacci[n]
+}
+// 0 1 1 2 3 5 8 13
 print("문장을 입력해주세요.")
-var s = "110101010100101"
-solution6(s)
+var s = 50000
+solution7(s)
